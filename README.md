@@ -33,7 +33,8 @@ To install modules follow the guidance in the url - https://docs.python.org/3/in
 
 ## Getting Started
 ### Accessing the dashboard
-Firstly, to run the dashboard, you will need to get an API key from the NewsAPI. Your unique key will allow you to access news articles in the dashboard. Place your API key inside the config.json file as the value for the key 'apiKey'
+Firstly, to run the dashboard, you will need to get an API key from the NewsAPI (https://newsapi.org). Your unique key will allow you to access news articles in the dashboard. Place your API key inside the config.json file as the value for the key 'apiKey'
+
 To launch the dashboard, open the terminal in the directory:
 
     /covid_dashboard/covid_dashboard
@@ -44,7 +45,7 @@ Once a terminal is open at this directory, run these commands:
     > pip install -r requirements.txt
     > python app.py
 
-Once app.py is running go to the url http://127.0.0.1:5000 to access the dashboard. 
+Once app.py is running, go to the url http://127.0.0.1:5000 to access the dashboard. 
 ### Navigating the dashboard
 Covid-19 data is displayed in the center of the UI and news articles are located to the right. 
 To schedule new updates enter your paramaters into the form, the time entered into this form will then be the time the update occurs. 
@@ -65,7 +66,7 @@ Functions within this application can be tested using pytest the corresponding t
 - test_covid_data_handler.py
 - test_news_data_handler.py 
 
-To run pytest, first launch the virtual environment explained in the getting started section and in the terminal run this line:
+To run pytest, first launch the virtual environment explained in the getting started section and in the terminal run these lines:
 
     > source .virtualenv/bin/activate
     > pytest
