@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+setup.py
+covid_dashboard.egg-info/PKG-INFO
+covid_dashboard.egg-info/SOURCES.txt
+covid_dashboard.egg-info/dependency_links.txt
+covid_dashboard.egg-info/top_level.txt
